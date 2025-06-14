@@ -73,8 +73,11 @@
 }
 
 /* Card image styling */
+/* This makes all images inside .card the same width */
 .card img {
-  width: 100%;
+  width: 100%;      /* Makes the image fill the card's width */
+  max-width: 250px; /* Limits the image to 250 pixels wide */
+  height: auto;     /* Keeps the image from looking squished */
   border-radius: 7px;
   margin-bottom: 10px;
 }
